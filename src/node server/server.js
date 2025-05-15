@@ -3,7 +3,7 @@ const app = express();
 app.use(express.urlencoded({extended:true}));
 
 const {MongoClient} = require('mongodb');
-const url = "mongodb://Jithin:beast@cluster0-shard-00-00.ah3n25x.mongodb.net:27017,cluster0-shard-00-01.ah3n25x.mongodb.net:27017,cluster0-shard-00-02.ah3n25x.mongodb.net:27017/PortFolio?ssl=true&replicaSet=atlas-xxxxxx-shard-0&authSource=admin&retryWrites=true&w=majority";
+const url = "mongodb+srv://Jithin:beast@cluster0.ah3n25x.mongodb.net/PortFolio";
 const client = new MongoClient(url);
 
 async function connect(){
