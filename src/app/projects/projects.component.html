@@ -1,0 +1,40 @@
+
+
+<div class="whole">
+<div class="top" @fromTopp>
+    <div id = topCont >
+      <a href="/home-page" style="text-decoration: none;">Home</a>
+      <a href="/education" style="text-decoration: none;">Education</a>
+      <a href="/projects" style="text-decoration: none;">Projects</a>
+      <a href="/gaming" style="text-decoration: none;">Gaming</a>
+      <a href="/Contact" style="text-decoration: none;">Contact</a>
+    </div>
+  </div>
+<div  class = "bottom">
+    <div class="contain" @fromTop >
+       <div  class = "project" *ngFor="let project of projects" >
+          <a [routerLink] = "[]" [fragment]="project.id" style="text-decoration: none;">
+          <div class="image" > 
+              <img src ="{{project.Name}}.jpg">
+          </div>
+          <div class = "name">
+            <h2>{{project.Name}}</h2>
+          </div>
+          </a>
+       </div>
+    </div>
+</div>
+<div class=" content">
+  <div *ngFor="let project of projects" >
+    <section id="{{project.id}}">
+    <h2 style="color: aqua;">{{project.Name}}</h2>
+    <video class="vid" controls>
+      <source src="{{project.Name}}.mp4" type="video/mp4">
+    </video>
+    <p style="color: aliceblue;">{{project.Detail}}</p>
+    <button><a href="{{project.link}} " target="_blank" style=" text-decoration: none;color: black;">Source Code</a> </button>
+    </section>  
+  </div>
+    
+</div>
+</div>

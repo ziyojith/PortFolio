@@ -1,0 +1,24 @@
+
+
+<div class="whole">
+<div class="top" >
+    <div id = topCont >
+      <a href="/home-page" style="text-decoration: none;">Home</a>
+      <a href="/education" style="text-decoration: none;">Education</a>
+      <a href="/projects" style="text-decoration: none;">Projects</a>
+      <a href="/gaming" style="text-decoration: none;">Gaming</a>
+      <a href="/Contact" style="text-decoration: none;">Contact</a>
+
+    </div>
+  </div>
+<div  class = "bottom">
+    <form #form= "ngForm" (ngSubmit)="onSubmit(form)">
+        <input type="text" name="id" [(ngModel)]="id" required placeholder="Id">
+        <input type="text" name="name" [(ngModel)]="name" required placeholder="Project Name">
+        <input type="text" name="detail" [(ngModel)]="detail" required placeholder="Detail">
+        <input type="text" name="url" [(ngModel)]="url" required placeholder="Url">
+        
+        <button type="submit">Submit</button>
+
+    </form>
+</div>

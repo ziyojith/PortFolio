@@ -1,0 +1,29 @@
+
+
+<div class="whole">
+<div class="top" >
+    <div id = topCont >
+      <a href="/home-page" style="text-decoration: none;">Home</a>
+      <a href="/education" style="text-decoration: none;">Education</a>
+      <a href="/projects" style="text-decoration: none;">Projects</a>
+      <a href="/gaming" style="text-decoration: none;">Gaming</a>
+      <a href="/Contact" style="text-decoration: none;">Contact</a>
+
+    </div>
+  </div>
+<div  class = "bottom">
+    <h2 style="color: aqua;margin-left: 25vw;">Contact me through social media (given on Home page) or send a message here</h2>
+    <form #form= "ngForm" (ngSubmit)="sendEmail()" class="formgrp">
+    <div>
+        <input type="text" name="name" [(ngModel)]="forms.name" required placeholder="Your Name">
+    </div>
+
+    <div style="margin-top: 1rem;" class="formgrp1">
+        <textarea name="msg" [(ngModel)]="forms.msg" required placeholder="Enter your message" rows="6" cols="50"></textarea>
+    </div>
+    <div>
+        <button type="submit">Submit</button>
+    </div>
+
+    </form>
+</div>

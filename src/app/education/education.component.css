@@ -1,0 +1,86 @@
+#topCont{
+    padding-top: 1vw;
+    margin-right: 6vw;
+}
+#topCont a{
+   margin-left: 1vw;
+   margin-top: 0.5vw;
+   color: rgb(160, 171, 171);
+   
+
+}
+.whole{
+    background-color: rgb(9, 21, 32) ;
+}
+
+.bottom{
+  width: 100%;
+  height: 150vh;
+  background-color: rgb(9, 21, 32);
+  
+
+}
+
+.contain{
+    color: aqua;
+    margin-top: 10vh;
+    margin-left: 6vw;
+    
+}
+.detail{
+    flex: 2;
+}
+.mark{
+    margin-top: 2vw;
+    padding-bottom: 2vw;
+}
+
+
+.image{
+    flex:1
+}
+.top{
+    background-color:black;
+    height: 1.5cm;
+    text-align: right;
+}
+.edu:hover{
+    background-color: aqua;
+        color: rgb(9, 21, 32); 
+    transform: scale(1.1);
+}
+.edu:hover h3{
+    background-color: aqua;
+        color: rgb(240, 11, 11); 
+    transform: scale(1.1);
+}
+h3{
+    color: aliceblue;
+}
+
+
+img{
+     width: 100%;
+  height: auto;
+  max-width: 300px;
+  
+   
+
+}
+.edu{
+    display: flex;
+     border: 5px solid aqua;
+     margin-top: 4vh;
+     margin-right: 6vw;
+}
+.vid{
+    margin-left: 15vw;
+    height: 70vh;
+}
+#topCont a{
+   margin-left: 1vw;
+   margin-top: 0.5vw;
+   color: aqua;
+   
+
+}

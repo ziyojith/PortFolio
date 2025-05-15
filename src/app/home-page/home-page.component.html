@@ -1,0 +1,42 @@
+
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+<div class="top">
+    <div id = topCont @fromTop>
+      <a href="/home-page" style="text-decoration: none;">Home</a>
+      <a href="/education" style="text-decoration: none;">Education</a>
+      <a href="/projects" style="text-decoration: none;">Projects</a>
+      <a href="/gaming" style="text-decoration: none;">Gaming</a>
+      <a href="/Contact" style="text-decoration: none;">Contact</a>
+      <a href="/store_projects">Upload</a>
+
+    </div>
+  </div>
+<div class ="bottom2" >
+        <div class="column1">
+            <div class="column11">
+                <h1 style="color: aqua;font-size:2cm;" @fromTop>JITHIN V J</h1>
+                <h2 @lettersAni style="font-size: 1.5cm;color: aliceblue;" *ngIf="show" @fromLeft>I'm a <span *ngFor="let lett of role" style="font-size: 1cm;color: aqua;" >{{lett}}</span>
+                </h2> 
+                <p style="color: aqua;"@fromBottom>Results-driven Computer Science Engineering student with a specialization in
+                Virtual and Augmented Reality. Skilled in full-stack development, immersive
+                application development using Unity, and object-oriented programming.
+                Passionate about building interactive digital solutions and solving real-world
+                problems through technology</p>
+                <div class="links" @fromBottom>
+                    <a href="https://www.instagram.com/___jith_in/" target="_blank"><i class='bx bxl-instagram'></i></a>
+                    <a href="https://github.com/ziyojith" target="_blank"><i class='bx bxl-github'></i></a>
+                    <a href="https://www.linkedin.com/in/jithin-v-j-196196285/"target="_blank"><i class='bx bxl-linkedin'></i></a>
+                    <a href=""><i class='bx bxl-whatsapp' ></i></a>
+
+                </div>
+            </div>    
+            
+        </div>
+        <div class="column2">
+          <div class="column21">
+            <img src="WebProf.jpeg" id="img" @fromRight>
+          </div>
+          
+        </div>
+</div>

@@ -1,0 +1,77 @@
+#topCont{
+    padding-top: 1vw;
+    margin-right: 6vw;
+}
+#topCont a{
+   margin-left: 1vw;
+   margin-top: 0.5vw;
+   color: aqua;
+   
+
+}
+.whole{
+    background-color: rgb(9, 21, 32) ;
+}
+.formgrp {
+    margin-left: 35vw;
+    margin-top: 10vh;
+}
+
+.bottom{
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(9, 21, 32);
+  
+
+}
+
+.contain{
+
+    margin-top: 10vh;
+    margin-left: 6vw;
+    display: inline-flex;
+}
+
+.project {
+       border: 5px solid aqua;
+       margin-left: 2vw;
+    
+}
+.name{
+    margin-left: 3vw;
+    color: aqua;
+    
+    
+}
+.top{
+    background-color:black;
+    height: 1.5cm;
+    text-align: right;
+}
+.project:hover{
+    background-color: aqua;
+        color: rgb(9, 21, 32); 
+    transform: scale(1.1);
+}
+.contain  :hover .image ,
+.contain  :hover .name
+{
+        
+        background-color: aqua;
+        color: rgb(9, 21, 32); 
+        transform: none;
+        
+}
+
+img{
+     width: 100%;
+  height: auto;
+  max-width: 300px;
+  
+   
+
+}
+.vid{
+    margin-left: 15vw;
+    height: 70vh;
+}
