@@ -1,8 +1,10 @@
 const express = require('express');
 const app = express();
 app.use(express.urlencoded({extended:true}));
-
+const cors = require('cors');
+app.use(cors())
 const {MongoClient} = require('mongodb');
+const { use } = require('react');
 const url = 'mongodb+srv://Jithin:beast@cluster0.ah3n25x.mongodb.net/PortFolio?retryWrites=true&w=majority';
 const client = new MongoClient(url);
 
