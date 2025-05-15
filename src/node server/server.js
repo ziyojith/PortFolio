@@ -3,7 +3,7 @@ const app = express();
 app.use(express.urlencoded({extended:true}));
 
 const {MongoClient} = require('mongodb');
-const url = "mongodb+srv://Jithin:Ziyo@2023@cluster0.ah3n25x.mongodb.net/PortFolio?retryWrites=true&w=majority";
+const url = "mongodb+srv://Jithin:Ziyo%402023@cluster0.ah3n25x.mongodb.net/PortFolio";
 const client = new MongoClient(url);
 
 async function connect(){
