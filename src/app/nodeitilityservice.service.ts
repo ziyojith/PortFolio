@@ -8,7 +8,7 @@ import { Observable } from 'rxjs';
 export class NodeitilityserviceService {
 
   constructor(private httpclient:HttpClient) {}
-    url:string="https://portfolio-85wk.onrender.com//";
+    url:string="https://portfolio-85wk.onrender.com/";
    display():Observable<any>{
     return this.httpclient.get(this.url + 'getAll')
    }
