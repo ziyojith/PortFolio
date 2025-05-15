@@ -8,7 +8,7 @@ import { Observable } from 'rxjs';
 export class NodeitilityserviceService {
 
   constructor(private httpclient:HttpClient) {}
-    url:string=" http://localhost:5000/";
+    url:string=" mongodb+srv://Jithin:beast@cluster0.ah3n25x.mongodb.net/PortFolio?retryWrites=true&w=majority";
    display():Observable<any>{
     return this.httpclient.get(this.url + 'getAll')
    }
